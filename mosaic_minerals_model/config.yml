@@ -23,6 +23,7 @@ features:
   - susc_var
   - susc_std
   - susc_sum
+  - Target
 
 # set train/test split
 test_size: 0.4
