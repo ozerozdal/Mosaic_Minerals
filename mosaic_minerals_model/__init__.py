@@ -1,6 +1,6 @@
 import logging
 
-from model.config.core import PACKAGE_ROOT, config
+from mosaic_minerals_model.config.core import PACKAGE_ROOT, config
 
 logging.getLogger(config.app_config.package_name).addHandler(logging.NullHandler())
 

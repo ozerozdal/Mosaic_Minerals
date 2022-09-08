@@ -25,7 +25,7 @@ features:
   - susc_sum
 
 # set train/test split
-test_size: 0.1
+test_size: 0.4
 
 # to set the random seed
 random_state: 42
@@ -35,6 +35,4 @@ numericals_log_vars:
   - susc_var
   - susc_std
 
-categorical_vars:
-
-
+alpha: 0.001

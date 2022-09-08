@@ -31,12 +31,12 @@ class ModelConfig(BaseModel):
     training and feature engineering.
     """
 
-    target: float
+    target: str
     features: List[str]
     test_size: float
     random_state: int
     numericals_log_vars: Sequence[str]
-    categorical_vars: Sequence[str]
+    alpha: float
 
 class Config(BaseModel):
     """Master config object."""
